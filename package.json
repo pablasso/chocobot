@@ -25,6 +25,7 @@
 
   "dependencies": {
     "hubot":         "2.5.5",
+    "hubot-irc":     "0.1.15"
     "hubot-scripts": "2.4.6"
   },
 
