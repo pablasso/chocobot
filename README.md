@@ -4,6 +4,18 @@ This is a simple [hubot] bot.
 
 [hubot]: http://hubot.github.com/
 
+    　　　／"'￣フ／)　　　　　　　 、
+    　　,/ ,--、 ￣､__フ　　　　 ／/
+    　 ,ヘｌ⌒ﾉ 　　＞　　　　,／　/＿
+    　( ＿l_"_ニ_　く＿　 ／）　／　／
+    　 ゛　,＞　　　　　 フ､　　　　､､＞
+    　　 <"　（　　　　　　フ　_＿＞
+    　　　ヽ　 ＼､､　＿フ' ノ
+    　　　　＼、＿＿､､,_ノ゛
+    　　　　　 　　 〉ﾆ〉ﾆ〉
+    　　　　 　 ,､_/ﾆ/ﾆ/
+    　　　　　∠ｌ∠ｌ､ニ＞
+
 ## Installation
 
 This is configured to work on IRC. The easiest deployment is with heroku:
