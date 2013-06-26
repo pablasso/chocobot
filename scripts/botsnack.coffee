@@ -28,7 +28,7 @@ responses = [
 　　　　 　 ,､_/ﾆ/ﾆ/\n
 　　　　　∠ｌ∠ｌ､ニ＞\n
 \n
-  Om nom nom!"
+          Om nom nom!"
 ]
 
 module.exports = (robot) ->
