@@ -15,11 +15,20 @@
 #   locherm
 
 responses = [
-  "Om nom nom!",
-  "That's very nice of you!",
-  "Oh thx, have a cookie yourself!",
-  "Thank you very much.",
-  "Thanks for the treat!"
+ "\n
+　　　／\"'￣フ／)　　　　　　　 、\n
+　　,/ ,--、 ￣､__フ　　　　 ／/\n
+　 ,ヘｌ⌒ﾉ 　　＞　　　　,／　/＿\n
+　( ＿l_\"_ニ_　く＿　 ／）　／　／\n
+　 ゛　,＞　　　　　 フ､　　　　､､＞\n
+　　 <\"　（　　　　　　フ　_＿＞\n
+　　　ヽ　 ＼､､　＿フ' ノ\n
+　　　　＼、＿＿､､,_ノ゛\n
+　　　　　 　　 〉ﾆ〉ﾆ〉\n
+　　　　 　 ,､_/ﾆ/ﾆ/\n
+　　　　　∠ｌ∠ｌ､ニ＞\n
+\n
+  Om nom nom!"
 ]
 
 module.exports = (robot) ->
