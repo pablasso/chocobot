@@ -18,11 +18,10 @@ This is a simple [hubot] bot.
 
 ## Installation
 
-This is configured to work on IRC. The easiest deployment is with heroku:
+Already configured to work on IRC and with some of my favorites scripts.
 
-    git init
-    git add *
-    git commit -m 'hubot deployed to heroku'
+The easiest deployment is with Heroku, after you clone the repository:
+
     heroku create --stack cedar
     git push heroku master
     heroku ps:scale app=1
@@ -31,3 +30,5 @@ This is configured to work on IRC. The easiest deployment is with heroku:
     heroku config:add HUBOT_IRC_ROOMS="#your-channel"
     heroku config:add HUBOT_IRC_NICK="chocobot"
     heroku config:add HUBOT_IRC_UNFLOOD=20000
+
+Using redistogo requires a verified account, but is optional.
