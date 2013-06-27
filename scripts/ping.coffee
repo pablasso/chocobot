@@ -19,3 +19,10 @@ module.exports = (robot) ->
 
   robot.respond /DIE$/i, (msg) ->
     msg.send "stop pointin' that fuckin' gun at me!"
+
+  robot.respond /SLAP (.*)$/i, (msg) ->
+    msg.send "/me slaps " + msg.match[1]
+
+  robot.respond /BITCHSLAP (.*)$/i, (msg) ->
+    msg.send "/me bitchslaps " + msg.match[1]
+ 
