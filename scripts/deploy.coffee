@@ -14,7 +14,9 @@
 #   pablasso
 
 module.exports = (robot) ->
-  robot.respond /deploy (.+)/i, (msg) ->
+  robot.respond /(deploy.*)/i, (msg) ->
     exec = require('child_process').exec
-    child = exec 'cd /home/pablasso/development/rack-machine && ruby chona.rb deploy ' + msg.match[1]
+    params = msg.match[1]
+    params += if msg.match[2] then ' ' + msg.match[2] else ''
+    child = exec 'cd /Users/pablasso/Development/rack-machine && ruby chona.rb ' + params
     child.stdout.on 'data', (data) -> msg.send data
