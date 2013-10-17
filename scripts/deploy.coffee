@@ -16,5 +16,5 @@
 module.exports = (robot) ->
   robot.respond /deploy (.+)/i, (msg) ->
     exec = require('child_process').exec
-    child = exec 'cd /Users/pablasso/Development/rack-machine && ruby chona.rb deploy ' + msg.match[1]
+    child = exec 'cd /home/pablasso/development/rack-machine && ruby chona.rb deploy ' + msg.match[1]
     child.stdout.on 'data', (data) -> msg.send data
