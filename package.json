@@ -32,7 +32,8 @@
     "xml2js":        "0.2.8",
     "htmlparser":    "1.7.6",
     "soupselect":    "0.2.0",
-    "hubot-scripts": "2.4.6"
+    "hubot-scripts": "2.4.6",
+    "hubot-slack":   "1.5.1"
   },
 
   "engines": {
