@@ -25,7 +25,7 @@
 
   "dependencies": {
     "hubot":         "2.5.5",
-    "hubot-slack":   "1.5.1",
+    "hubot-irc":     "0.2.7",
     "ntwitter":      "0.5.0",
     "chess":         "0.1.5",
     "cheerio":       "0.12.0",
