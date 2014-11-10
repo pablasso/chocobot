@@ -9,6 +9,7 @@
 #
 # Commands:
 #   hubot oncall now - Returns '{name} is oncall from {intial date} to {final date}'
+#   hubot oncall topic - Sets channel topic to `oncall now` message
 #
 # Author:
 #   orlando[@odelaguila]
