@@ -15,18 +15,7 @@
 #   orlando[@odelaguila]
 
 class OnCallRoster
-  PEOPLE: [
-    'orlando',
-    'carlos',
-    'pablasso',
-    'diego',
-    'thomas',
-    'jorge'
-    'marco',
-    'salvadorbfm',
-    'alberto',
-    'fernando',
-  ]
+  PEOPLE: (process.env.ONCALL_PEOPLE && process.env.ONCALL_PEOPLE.split(',') || [])
 
   constructor: () ->
     @currentWeek = @getCurrentWeek()
