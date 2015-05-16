@@ -1,6 +1,8 @@
 ### This repository is deprecated
 
-Hubot now manages scripts in separate repos and npm packages. Now I will create new bots and their adapters with yeoman and just track `package.json` for each bot.
+Hubot now manages scripts in separate repos and npm modules. 
+
+Now I will create new bots and their adapters with yeoman, create new npm modules for the custom scripts and just maintain a `package.json` for each bot.
 
 # Chocobot
 
