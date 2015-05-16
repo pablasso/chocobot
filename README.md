@@ -1,3 +1,7 @@
+### This repository is deprecated
+
+Hubot now manages scripts in separate repos and npm packages. Now I will create new bots and their adapters with yeoman and just track `package.json` for each bot.
+
 # Chocobot
 
 This is a simple [hubot] bot.
